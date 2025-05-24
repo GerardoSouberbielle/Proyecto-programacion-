@@ -1,0 +1,50 @@
+# -------------------------------------------------------------
+# Configuración Básica del Sitio
+# -------------------------------------------------------------
+title: Portafolio de Proyectos - [Luis Gerardo Souberbielle Muruillo] # Título principal de tu sitio
+description: En este espacio se encuentran todas los archivos correspondientes a los trabajos realizados durante el semestre de la materia de programación numérica :) >- # Descripción breve del portafolio o sitio. Usa ">-" para texto en varias líneas.
+  
+baseurl: "" # Deja en blanco si tu sitio está en la raíz de un repositorio GitHub Pages (ej. usuario.github.io/repositorio/)
+url: "https://gerardosouberbielle.github.io/Proyecto-programacion-/" # URL base de tu sitio. ¡Actualiza con tu info!
+repository: [gerardosouberbielle]/[proyecto-programacion-] # ¡Actualiza con tu usuario y repositorio!
+
+# -------------------------------------------------------------
+# Configuración del Tema
+# -------------------------------------------------------------
+# Elige un tema formal y limpio de GitHub Pages.
+# Sugerencias: minimal, architect, cayman, architect
+theme: minimal # Puedes cambiarlo a 'architect', 'cayman', etc. Prueba y ve cuál te gusta más.
+
+# -------------------------------------------------------------
+# Colecciones Personalizadas (Tus 6 Categorías)
+# -------------------------------------------------------------
+# Aquí definimos una colección llamada 'categorias'.
+# Cada elemento en esta colección será una de tus 6 categorías.
+collections:
+  categorias:
+    output: true # Esto generará una página HTML para cada categoría.
+    permalink: /categorias/:name/ # Define la URL de cada página de categoría (ej. /categorias/investigacion/)
+
+# -------------------------------------------------------------
+# Variables Globales (Opcional, pero útil para personalizar)
+# -------------------------------------------------------------
+author: Gerardo Souberbielle # Tu nombre o el de tu equipo.
+email: A371987@alumnos.uaslp.mx # Tu correo electrónico de contacto.
+github_username: GerardoSouberbielle # Tu usuario de GitHub para enlaces.
+
+# Puedes añadir más variables para usar en tu theme o layout
+# por ejemplo, el texto del footer, enlaces a redes sociales, etc.
+# footer_text: "© 2025 [Tu Nombre]. Todos los derechos reservados."
+
+# -------------------------------------------------------------
+# Exclusiones (Archivos que Jekyll no debe procesar)
+# -------------------------------------------------------------
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .idea
+  - .gitignore
+  - README.md
+  - LICENSE
