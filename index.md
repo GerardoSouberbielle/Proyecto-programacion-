@@ -23,3 +23,7 @@ aqui se adjuntan los codigos correspondientes a la materia de programacion
 [Dosfuncionesparacrearmatrizapartirdeunvectorbase](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/dos%20funciones%20para%20crear%20matrices%20a%20partir%20de%20un%20vector%20base%20aleatorio.py)
 [Graficoquemuestralasfuncionestrigonometricassenocosenoytangente](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/dos%20funciones%20para%20crear%20matrices%20a%20partir%20de%20un%20vector%20base%20aleatorio.py)
 [Interpolacionlineal](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/interpolacion_lineal.py)
+[biseccion](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/Biseccion.py)
+[Newtonrapson](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/newton%20rapson.py)
+[Secante](https://github.com/GerardoSouberbielle/Proyecto-programacion-/blob/main/secante.py)
+
